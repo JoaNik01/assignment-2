@@ -45,6 +45,7 @@
 }
 
 
+
 /* Nav style */
 header {
     width: 100%;
@@ -212,6 +213,10 @@ font-weight: 400;
     justify-content: center;
     gap: 20px;
 }
+.video-thumbnails>div>img:hover{
+    border: 5px solid deeppink;
+    border-radius: 18px;
+}
 
 /* Hover styles:failed */
 /* .play-hover{
@@ -230,3 +235,71 @@ position: absolute;
 .video-thumbnails:hover .play-hover{
     display: block;
 } */
+.play-games{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 150px;
+}
+.pg-head{
+    width: 341px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+}
+.pg-des{
+    width: 341px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.pg-img1{
+    position: relative;
+    left: 320px;
+}
+.pg-img2{
+    position: relative;
+    top: 80px;
+    right: 490px;
+}
+
+.career{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    width: 100%;
+    max-height: 821px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding-left: 139px;
+}
+.career-head{
+    width: 426px;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.career-text{
+    width: 680px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.career-data{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 39px;
+}
+.career-section{
+    width: 680px;
+}
